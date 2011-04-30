@@ -105,7 +105,10 @@ ob_start('clean_source');
 			</article>
 
 			<footer class="center">
-				<a href="http://validator.w3.org/check?uri=<?php echo urlencode($_SERVER['SERVER_NAME']); ?>">HTML5</a> / <a href="http://jigsaw.w3.org/css-validator/validator?uri=<?php echo urlencode($_SERVER['SERVER_NAME']); ?>&amp;profile=css3&amp;usermedium=all&amp;warning=1&amp;vextwarning=&amp;lang=en">CSS3</a> / <a href="http://www.webkit.org/">+WEBKIT</a>
+				<a href="http://validator.w3.org/check?uri=<?php echo urlencode($_SERVER['SERVER_NAME']); ?>">HTML5</a> /
+				<a href="http://jigsaw.w3.org/css-validator/validator?uri=<?php echo urlencode($_SERVER['SERVER_NAME']); ?>&amp;profile=css3&amp;usermedium=all&amp;warning=1&amp;vextwarning=&amp;lang=en">CSS3</a> /
+				<a href="http://www.webkit.org/">+WEBKIT</a> /
+				<a href="https://github.com/diewuste/EMACalendar/">github</a>
 			</footer>
 		</div>
 
