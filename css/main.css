@@ -1,0 +1,173 @@
+body { 
+	font: normal 14px/16px "Helvetica Neue", Helvetica, sans-serif;
+	background: rgb(237, 237, 236);
+	margin: 0;
+	margin-top: 40px;
+	padding: 0;
+	min-height: 600px;
+}
+
+section, header, footer {
+	display: block;
+}
+
+#wrapper {
+	width: 85%;
+	margin: 0 auto;
+	background: #fff;
+	border-radius: 10px;
+	border-top: 1px solid #fff;
+	-webkit-box-reflect: below 0 
+		-webkit-gradient(linear, left top, left bottom, 
+		from(transparent), 
+		color-stop(0.35, transparent), 
+		to(rgba(255,255,255,0.65))
+		);
+}
+
+fieldset {
+	border: 1px dotted #999;
+	max-width: 330px;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+	padding: 10px 10px;
+	-webkit-box-reflect: below -10px 
+		-webkit-gradient(linear, left top, left bottom, 
+		from(transparent), 
+		color-stop(0.2, transparent), 
+		to(rgba(255,255,255,0.25))
+		);
+	color: white;
+	text-shadow: -1px -1px 2px #000,
+		1px -1px 2px #000, -1px 1px 2px #000,
+		1px 1px 2px #000, -1px -1px 2px #000,
+		1px -1px 2px #000, -1px 1px 2px #000,
+		1px 1px 2px #000;
+}
+
+h1:hover, h1:focus {
+	text-decoration: none;
+	text-shadow: 0px 0px 15px #fff,
+		-1px -1px 5px #000, 1px -1px 5px #000,
+		-1px 1px 5px #000, 1px 1px 5px #000,
+		-1px -1px 5px #000, 1px -1px 5px #000,
+		-1px 1px 5px #000, 1px 1px 5px #000;
+}
+
+a:hover, a:focus {
+	text-decoration: none;
+}
+
+legend {
+	color: #999;
+}
+
+label {
+	display: block;
+	float: left;
+	width: 150px;
+	font-size: 12px;
+}
+
+header,
+article > *,
+footer > * {
+	margin: 20px;
+}
+
+.center {
+	text-align: center;
+}
+
+footer > * {
+	margin: 20px;
+	color: #999;
+}
+
+a.ic {
+	display: inline-block;
+	width: 100px;
+	height: 20px;
+	padding: 15px 20px 10px 45px;
+	color: #666666;
+	text-decoration: none;
+	background: url(../img/ic.jpg) no-repeat 0px 0px;
+}
+a.ic:hover {
+	color: #333333;
+	background: url(../img/ic.jpg) no-repeat 0px -45px;
+	cursor: pointer;
+}
+
+a.gc {
+	display: inline-block;
+	width: 100px;
+	height: 20px;
+	padding: 15px 20px 10px 45px;
+	color: #666666;
+	text-decoration: none;
+	background: url(../img/gc.jpg) no-repeat 0px 0px;
+}
+a.gc:hover {
+	color: #333333;
+	background: url(../img/gc.jpg) no-repeat 0px -45px;
+	cursor: pointer;
+}
+
+table {
+	padding-top: 20px;
+}
+
+fieldset {
+	padding: 20px;
+}
+
+select, input {
+	width: 130px;
+}
+
+.tip {
+	color: #fff;
+	width: 139px;
+	z-index: 13000;
+}
+
+.tip-title {
+	font-weight: bold;
+	font-size: 11px;
+	margin: 0;
+	color: #9FD4FF;
+	padding: 8px 8px 4px;
+	background: url(../img/tip.png) top left;
+}
+
+.tip-text {
+	font-size: 11px;
+	padding: 4px 8px 8px;
+	background: url(../img/tip.png) bottom right;
+}
+
+#feedback {
+	top: 25%;
+	left: 0;
+	width: 42px;
+	height: 102px;
+	color: #fff;
+	cursor: pointer;
+	text-indent: -100000px;
+	overflow: hidden;
+	position: fixed;
+	z-index: 90;
+	margin-left: -7px;
+	background-color: #415D89;
+	background-image: url(../img/feedback_trans_tab.png);
+	_position: absolute;
+	_background-image: url(../img/feedback_tab_ie6.png);
+}
+
+#feedback:hover {
+	margin-left: -4px;
+}
