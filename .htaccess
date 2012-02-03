@@ -1,0 +1,5 @@
+RewriteEngine on
+
+RewriteCond %{HTTP_USER_AGENT} "ipod|iphone|ipad|android|palm" [NC]
+RewriteCond %{REQUEST_URI} !^/mobile
+RewriteRule (.*) http://emacalendar.diewuste.fr/mobile [R=301,L]
