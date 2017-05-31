@@ -5,14 +5,14 @@ function clean_source($buffer) {
 }
 
 function sendemail($email, $subject, $message) {
-	$headers = 'From: "EMACalendar"<no-reply@emacalendar.diewuste.fr>' . "\n";
+	$headers = 'From: "EMACalendar"<no-reply@emacalendar>' . "\n";
 	$headers .='Reply-To: ' . $email . "\n";
 	$headers .='Content-Type: text/html; charset="utf-8"' . "\n";
 	$headers .='Content-Transfer-Encoding: 8bit';
 
 	$subject = '[EMACalendar-Feedback] ' . $subject;
 
-	return mail('nicolas.talon@mines-ales.org', $subject, $message, $headers);
+	return mail('email@email.cc', $subject, $message, $headers);
 }
 
 ?>
